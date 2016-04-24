@@ -23,6 +23,7 @@
   "homepage": "https://github.com/angular/angular2-seed#readme",
   "devDependencies": {
     "html-webpack-plugin": "^2.9.0",
+    "source-map-loader": "^0.1.5",
     "ts-loader": "^0.7.2",
     "typescript": "^1.7.3",
     "typings": "^0.6.8",

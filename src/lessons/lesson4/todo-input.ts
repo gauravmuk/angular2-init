@@ -4,12 +4,13 @@ import {Component} from 'angular2/core';
     selector: 'todo-input',
     template: `<div>
     <input type="text" #myInput>
-    <button (click)="onClick(myInput)">Click Me</button>
+    <button (mouseover)="onMouseOver($event, myInput)">Click Me</button>
     </div>`
 })
 
 export class TodoInput{
-    onClick(value) {
-        console.info(value);
+    onMouseOver(event, myInput) {
+        console.info(event);
+        console.info(myInput);
     }
 }
