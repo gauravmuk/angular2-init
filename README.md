@@ -4,3 +4,4 @@
 - Creating component
 - Using events & references in component
 - Lost Track
+- I <3 ng2
